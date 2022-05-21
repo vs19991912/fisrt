@@ -1,0 +1,44 @@
+<script> src="18.js"></script>
+
+<html>
+ <table>
+ <caption><h3>Flight Interface</h3></caption>
+ <tr>
+  <td>Flight Id:</td>
+  <td><input type ="text" id="fid"></td>
+ </tr>
+
+ <tr>
+  <td>Flight company:</td>
+  <td>
+   <select id="fc">
+       <option value="100">Air India</option>
+       <option value="80">SpiceJet</option>
+       <option value="60">GoAir</option>
+    </select>
+
+  </td>
+  </tr>
+
+ <tr>
+  <td>Source:</td>
+  <td><input type="text"id ="Source"></td>
+ </tr>
+
+ <tr>
+  <td>Destination:</td>
+  <td><input type="text"id ="Destination"></td>
+ </tr>
+
+ <tr>
+  <td>Distance:</td>
+  <td><input type="text"id ="Distance"</td>
+ </tr>
+</table>
+<input type="button"  onclick="getResult()" value="show">
+<br><br>
+
+<div id="result">
+</div>
+
+</html>
